@@ -15,7 +15,9 @@ seguidores_ultimo_mes = []
 
 #Inicio
 def inicio():
-
+    
+    st.session_state['answer'] = ''!
+    
     st.title("Fintechs - Estatísticas(Twitter) - Nubank | PicPay | XP Investimentos")
 
     vetora = [[],[],[]]
